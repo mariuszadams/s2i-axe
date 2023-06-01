@@ -14,7 +14,7 @@ ls /tmp -lah
 echo "--src dir"
 ls /tmp/src -lah
 cp -raf /tmp/src/*.html ./
-$DD=`date '+%Y-%m-%d'`
+DD=`date '+%Y-%m-%d'`
 echo "Built on $DD and Apache $HTTPD_VERSION" > ./info.html
 
 # Fix source directory permissions
