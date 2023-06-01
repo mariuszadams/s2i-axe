@@ -1,0 +1,13 @@
+# This is Git's per-user configuration file.
+# Please adapt and uncomment the following lines:
+
+git config --global \
+user.name Student
+git config --global \
+user.email student@lab.example.com
+git config --global \
+push.default simple
+git config --global \
+credential.https://github.com.username mariuszadams
+git config --global \
+credential.helper 'cache --timeout 10800' #3 hours
